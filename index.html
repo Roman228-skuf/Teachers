@@ -16,11 +16,12 @@
             <p>Віталій Шатківський</p>
             <p>Предмет: Інформатика</p>
             <img class="imgTeachers" src="images/Shat.png" alt="Шатківський">
-            <button class="profileBTN">
-                Профіль
-            </button>
-
-            <button class="writeBTN">
+            <a href="https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/" class="profileBTN">
+            
+            <p>Профіль</p>
+             
+            </a>
+            <button class="writeBTN" id="writeBTN">
                     Написати
                 </button>
         </div>
@@ -31,11 +32,13 @@
                 <p>Наталія Венцель</p>
                 <p>Предмет: Директор</p>
                 <img class="imgTeachers" src="images/Vencel.png" alt="Венцель">
-                <button class="profileBTN">
-                    Профіль
-                </button>
+                <a href="https://lyceum.ztu.edu.ua/team/ventsel-n-v/" class="profileBTN">
+            
+                    <p>Профіль</p>
+                     
+                    </a>
 
-                <button class="writeBTN">
+                <button class="writeBTN" id="writeBTN">
                     Написати
                 </button>
             </div>
@@ -44,6 +47,15 @@
 
     </section>
     
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Написати повідомлення</h2>
+            <textarea placeholder="Введіть ваше повідомлення тут..."></textarea>
+            <button class="sendBTN" id="sendBTN">Відправити</button>
+        </div>
+    </div>
+
     <footer>
         <div class="contacts">
             <p>ЖИТОМИР</p>
@@ -62,6 +74,6 @@
     </footer>
 
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
